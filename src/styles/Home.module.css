@@ -1,0 +1,199 @@
+.firstImage{
+  max-width: 526px;
+  /* height: 54vw;  */
+
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.firstImage .text{
+  width: 100%;
+  margin-top: 200px;
+
+
+  position: absolute;
+  top: 0px;
+
+  font-size: 38px;
+  font-weight: 900;
+  color: white;
+
+  /* margin: 10% 0px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media(max-width: 450px){
+  .firstImage .text{
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 350px){
+  .firstImage .text{
+    margin-top: 25vw;
+
+    font-size:26px;
+  }
+}
+
+.content1 {
+  text-align: center;
+  margin: 80px 10% 110px 10%;
+}
+
+
+.content1 button{
+  margin-top: 30px;
+}
+
+.content1 h1 {
+  font-size: 36px;
+  color: #3a667c;
+}
+
+
+
+.content1 button {
+  background-color: #3a667c;
+  color: white;
+  padding: 14px 38px 14px 38px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+
+.content1 button:hover {
+  filter: brightness(0.9);
+  transition: 0.5s;
+}
+
+@media (max-width: 350px){
+  .content1 h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #3a667c;
+  }
+
+  .content1 {
+    text-align: center;
+    margin: 40px 10% 80px 10%;
+  }
+}
+
+.content2 {
+  color: white;
+  text-align: center;
+  padding: 40px 10% 40px 10%;
+  background-color: #3a667c;
+}
+
+.content2 button{
+  background-color: #50d727;
+  color: white;
+  border: none;
+}
+
+.item:last-child{
+  margin-top:50px;
+}
+
+.content2 h2 {
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.content3 {
+  margin: 0px 0% 80px 0%;
+  weight: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.content3 
+.title{
+  text-align: center;
+
+  margin-top: 10px;
+  font-size: 34px;
+  font-weight: 700;
+  margin-top: 80px;
+  color: #3a667c;
+  margin-bottom: 40px;
+}
+
+.allText{
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 10%;
+}
+
+.content3 a:nth-child(4){
+  margin: 20px 0px 20px 0px;
+}
+
+.content3 a{
+  color: #3a667c;
+}
+
+.content3 > div{
+  max-width: 526px;
+
+  margin: 0 auto;
+}
+
+
+
+
+.content4{
+  margin: 0px 10% 40px 10%;
+  font-size: 28px;
+  text-align: center;
+  color: #3a667c;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.content4 button{
+  margin-top: 40px;
+  background-color: #3a667c;
+  color: white;
+  padding: 14px 38px 14px 38px;
+  cursor: pointer;
+  border: none;
+  transition: 0.5s;
+}
+
+.content4 a:last-child{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.content5 {
+  background: #3a667c;
+  margin-top: 50px;
+  padding: 10px 5% 10px 5%;
+  color: white;
+  text-align: center;
+}
+
+
+
+.zap{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 99999999;
+}
